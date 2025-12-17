@@ -1,0 +1,12 @@
+# Bandit Level 9 → Level 10
+
+# List files in the home directory
+ls
+
+# The file containing the data is data.txt
+data.txt
+
+# Extract printable strings and search for lines containing =
+strings data.txt | grep =
+
+# Password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
