@@ -1,0 +1,13 @@
+# connect to the Bandit server as bandit2
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+
+# list files in the home directory
+ls
+
+# output shows a file with spaces and dashes in its name
+
+# read the file using the correct syntax to handle special characters
+cat -- --spaces\ in\ this\ filename--
+
+# password for next level:
+# MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
