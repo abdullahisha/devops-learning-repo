@@ -1,0 +1,15 @@
+# Bandit Level 5 → Level 6
+
+# List directories inside inhere
+ls
+
+# Search for a file that is exactly 1033 bytes
+find . -size 1033c
+
+# The file is located in maybehere07
+cd maybehere07
+
+# Read the hidden file
+cat .file2
+
+# Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG

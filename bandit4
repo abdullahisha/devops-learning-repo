@@ -1,0 +1,18 @@
+# Bandit Level 4 → Level 5
+
+# List files in home directory
+ls
+
+# Enter the inhere directory
+cd inhere/
+
+# List all files (they start with a dash)
+ls
+
+# Identify which file is human-readable
+file ./*
+
+# Read the only ASCII text file (note the dash in the filename)
+cat ./-file07
+
+# Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
