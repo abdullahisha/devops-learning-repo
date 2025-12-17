@@ -1,0 +1,57 @@
+# Create a temporary working directory
+mktemp -d
+
+# Copy the file into the temp directory
+cp data.txt /tmp/tmp.TA88P7ai3k
+
+# Move into the temp directory
+cd /tmp/tmp.TA88P7ai3k
+
+# Reverse the hex dump
+xxd -r data.txt > data
+
+# Check file type
+file data
+
+# Decompress gzip
+mv data data.gz
+gzip -d data.gz
+
+# Check file type
+file data
+
+# Decompress bzip2
+mv data data.bz2
+bzip2 -d data.bz2
+
+# Check file type
+file data
+
+# Decompress gzip again
+mv data data.gz
+gzip -d data.gz
+
+# Check file type
+file data
+
+# Extract tar archive
+mv data data.tar
+tar -xf data.tar
+
+# Repeat extraction steps as file types change
+mv data5.bin data.tar
+tar -xf data.tar
+
+mv data6.bin data.bz2
+bzip2 -d data.bz2
+
+mv data data.tar
+tar -xf data.tar
+
+mv data8.bin data.gz
+gzip -d data.gz
+
+# Read final file
+cat data
+
+# Password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
