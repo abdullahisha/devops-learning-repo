@@ -1,0 +1,18 @@
+# Bandit Level 10 → Level 11
+
+# List files in the home directory
+ls
+
+# The file containing the encoded data is data.txt
+data.txt
+
+# Read the Base64-encoded string from the file
+cat data.txt
+# Output:
+# VkdobElIQmhjM04zYjNKa0lHbHpJR1IwVWpFM00yWmFTMkl3VWxKelJFWlRSM05uTWxKWGJuQk9W
+# bW96Y1ZKeUNnPT0K
+
+# Decode the Base64 string
+base64 -d data.txt
+
+# Password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr

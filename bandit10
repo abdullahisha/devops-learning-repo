@@ -1,0 +1,13 @@
+# Bandit Level 11 → Level 12
+
+# List files in the home directory
+ls
+
+# View the contents of the data file (ROT13 encoded)
+cat data.txt
+
+# Decode the ROT13 text using tr
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+# Password for the next level
+# 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
