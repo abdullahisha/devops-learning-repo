@@ -1,0 +1,12 @@
+# Bandit Level 7 → Level 8
+
+# List files in the home directory
+ls
+
+# The file containing the data is data.txt
+data.txt
+
+# Search for the line containing the word millionth
+grep millionth data.txt
+
+# Password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc

@@ -1,0 +1,15 @@
+ # Bandit Level 8 → Level 9
+
+# List files in the home directory
+ls
+
+# The file containing the data is data.txt
+data.txt
+
+# Sort the file so duplicate lines are adjacent
+sort data.txt
+
+# Find the line that appears only once
+sort data.txt | uniq -u
+
+# Password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
