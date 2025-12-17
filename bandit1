@@ -1,0 +1,13 @@
+# connect to the Bandit server as bandit1
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+# list files in the home directory
+ls
+
+# output shows a file named "-"
+
+# read the file using a relative path
+cat ./-
+
+# password for next level:
+# 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
