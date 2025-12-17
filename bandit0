@@ -1,0 +1,16 @@
+# connect to the Bandit server as bandit0
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+# password when prompted:
+# bandit0
+
+# list files in the home directory
+ls
+
+# output shows a file named "readme"
+
+# read the file to get the next password
+cat readme
+
+# password for next level:
+# ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
