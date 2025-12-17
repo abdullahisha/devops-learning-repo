@@ -1,0 +1,17 @@
+[200~# connect to the Bandit server as bandit3
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+
+# list files in the home directory
+ls
+
+# move into the inhere directory
+cd inhere
+
+# search for files in the directory
+find
+
+# read the file found by find
+cat ./...Hiding-From-You
+
+# password for next level:
+# 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ~
