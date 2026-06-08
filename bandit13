@@ -1,0 +1,20 @@
+# Level 13 → 14
+# List files in home directory
+ls
+
+# View the private key
+cat sshkey.private
+
+# Create a file and paste the private key contents
+nano private.key
+
+# Set correct permissions on the key file
+chmod 700 private.key
+
+# SSH into bandit14 using the private key
+ssh -i private.key bandit14@localhost -p 2220
+
+# Retrieve the password for bandit14
+cat /etc/bandit_pass/bandit14
+
+# Password: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
