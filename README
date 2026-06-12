@@ -1,0 +1,23 @@
+# DevOps Learning Repo
+
+## OverTheWire Bandit Wargame
+Working through the Bandit wargame as part of my DevOps/Cloud Engineering learning journey. Each file documents the commands used and the approach taken to complete that level.
+
+## Skills Covered (Levels 0-17)
+- SSH into remote servers
+- Navigating the Linux file system (ls, cd, cat, find)
+- Reading hidden files and files with special names
+- Searching files by size, permissions and content (find, grep)
+- File permissions and ownership (chmod, ls -la)
+- File compression and decompression (gzip, bzip2, tar)
+- Hex dumps and reversing them (xxd)
+- Netcat for connecting to open ports (nc)
+- SSL/TLS connections (openssl s_client)
+- Port scanning (nmap)
+- Private key authentication (SSH -i)
+
+## Progress
+- Levels 0-17 completed and documented
+
+## Links
+- OverTheWire Bandit: https://overthewire.org/wargames/bandit
