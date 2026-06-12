@@ -1,0 +1,24 @@
+# Level 16 → 17
+# Scan for open ports in range 31000-32000
+nmap localhost -p 31000-32000
+
+# Find which ports speak SSL
+nmap localhost -p 31000-32000 --script ssl-cert
+
+# Connect to the correct SSL port and submit bandit16 password
+openssl s_client -connect localhost:31790 -ign_eof
+
+# Enter bandit16 password: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+# Received RSA private key - save it to a file on local machine
+nano bandit17.key
+
+# Set correct permissions
+chmod 400 bandit17.key
+
+# SSH into bandit17 using the private key
+ssh -i bandit17.key bandit17@bandit.labs.overthewire.org -p 2220
+
+# Retrieve the password
+cat /etc/bandit_pass/bandit17
+
+# Password: EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
