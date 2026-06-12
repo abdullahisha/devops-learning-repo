@@ -1,0 +1,8 @@
+# Level 15 → 16
+# Connect to port 30001 on localhost using SSL
+openssl s_client -connect localhost:30001
+
+# Enter the bandit15 password when prompted
+# 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+# Password received for bandit16: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
